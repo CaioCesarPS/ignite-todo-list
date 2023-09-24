@@ -1,0 +1,107 @@
+.wrapper {
+  max-width: 46rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.inputField {
+  display: flex;
+  gap: 0.5rem;
+  max-height: 3.375rem;
+
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.formContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.input {
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--gray-100);
+  width: 39.875rem;
+  resize: none;
+}
+
+.button {
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  padding: 1rem;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: var(--blue);
+}
+
+.button svg {
+  margin-left: 0.5rem;
+}
+
+.container {
+  padding-top: 4rem;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createdTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTasks h3{
+  color: var(--blue);
+}
+
+.createdTasks span {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  width: 1.562rem;
+  height: 1.187rem;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+}
+
+.completedTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.completedTasks h3 {
+  color: var(--purple);
+}
+
+.completedTasks span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  min-width: 1.562rem;
+  height: 1.187rem;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+}
